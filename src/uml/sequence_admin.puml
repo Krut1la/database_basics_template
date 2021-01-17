@@ -1,6 +1,6 @@
 @startuml
-Адміністратор-> Система: сканування джерел
-Система --> Адміністратор: Відображення первинне
-Адміністратор-> Система: Фільтрация
-Адміністратор-> Система: Оновлення бази
+Admin-> System: scans sources
+System --> Admin: Raw data show
+Admin-> System: Filtering
+Admin-> System: Database update
 @enduml

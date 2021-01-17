@@ -1,6 +1,6 @@
 @startuml
-:Êîğèñòóâà÷: --> (Use)
-"Àäì³í³ñòğàòîğ" as Admin
-"Ñòâîğşå çàïèò" as (Use)
-Admin --> (Ï³äòğèìóº ñåğâåğ)
+:User: --> (Use)
+"Admin" as Admin
+"Creates request" as (Use)
+Admin --> (Maintains server)
 @enduml

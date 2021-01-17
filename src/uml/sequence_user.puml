@@ -1,4 +1,4 @@
 @startuml
-Користувач -> Система: Створює запит
-Система --> Користувач: Відображує знайдені фрази
+User -> System: Creates request
+System --> User: Show found phrases
 @enduml

@@ -2,7 +2,7 @@
 ## 2. Сценарії  
 
 **Відношення узагальнення**
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Krut1la/database_basics_template/blob/master/src/uml/usecase.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=raw.githubusercontent.com/Krut1la/whosaidit/blob/master/src/uml/usecase.puml)
 
 
 **Структурування моделі варіантів використання**
@@ -29,7 +29,7 @@
 
 **ДІАГРАМА**:
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Krut1la/database_basics_template/blob/master/src/uml/sequence_user.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=raw.githubusercontent.com/Krut1la/whosaidit/master/src/uml/usecase.puml)
 
 ### 2.2 Сценарій оновлення бази даних
 
@@ -49,4 +49,4 @@
 **ДІАГРАМА:**
 
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Krut1la/database_basics_template/blob/master/src/uml/sequence_user.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=raw.githubusercontent.com/Krut1la/whosaidit/blob/master/src/uml/sequence_user.puml)
