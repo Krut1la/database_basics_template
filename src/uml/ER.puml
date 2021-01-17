@@ -1,0 +1,36 @@
+@startuml
+entity Phrases{
+      pkPhrases
+      fkSource
+      fkSpeaker
+      
+  }
+  
+  entity Sources{
+      pkSources  
+      fkSourceType
+      SourceName
+  }
+  
+  entity Speakers{
+      pkSpeaker
+      fkSpeakerProfession
+      FirstName
+      LastName
+  }
+
+  entity SourceTypes{
+      pkSourceTypes  
+      SourceTypeName
+  }
+  
+  entity SpeakerProfessions{
+      pkSpeakerProfessions
+      ProfessionName
+  }
+    
+    Phrases "0,*" --- "1,1" Sources
+    Phrases "0,*" --- "1,1" Speakers
+    Speakers "0,*" --- "1,1" SpeakerProfessions
+    Sources "0,*" --- "1,1" SourceTypes
+@enduml
